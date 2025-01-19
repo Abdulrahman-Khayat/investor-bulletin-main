@@ -2,9 +2,7 @@
 """_summary_
 This file to abstract any validation logic for the Alerts
 """
-from pydantic import BaseModel
+# from pydantic import BaseModel
 
-class AlertCreate(BaseModel):
-    name: str
-    threshold: float
-    symbol: str
+# class AlertCreate(BaseModel):
+#     pass
