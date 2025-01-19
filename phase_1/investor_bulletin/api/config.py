@@ -7,6 +7,6 @@ class Settings(BaseSettings):
     x_rapid_api_host: str
     database_url: str
 
-    model_config = SettingsConfigDict(env_file="../../.env")
+    model_config = SettingsConfigDict(env_file="../.env")
 
 settings = Settings()
